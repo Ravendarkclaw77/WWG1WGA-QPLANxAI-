@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,43 +6,98 @@
     body {
       font-family: Arial, sans-serif;
       background: #f8f8f8;
-      margin: 32px;
+      margin: 0;
+      padding: 0;
     }
-    .banner {
-      width: 100%;
-      max-width: 900px;
-      display: block;
-      margin: 0 auto 28px auto;
+    .main {
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 32px 16px 12px 16px;
+      background: #fff;
       border-radius: 10px;
-      box-shadow: 0 0 10px #bbb;
+      box-shadow: 0 0 14px #ddd;
     }
     .logo {
-      max-width: 250px;
       display: block;
-      margin: 0 auto 24px auto;
+      margin: 0 auto 16px auto;
+      max-width: 170px;
       border-radius: 10px;
-      box-shadow: 0 0 8px #ccc;
-      background: #fff;
+      box-shadow: 0 2px 12px #bbb;
+      background: #fafafa;
     }
     h1 {
-      color: #135031;
       text-align: center;
+      font-size: 2em;
+      color: #194d2b;
+      margin-bottom: 18px;
+      letter-spacing: 1px;
+      font-weight: bold;
     }
-    p {
-      font-size: 1.15em;
+    .badge-img {
+      display: block;
+      margin: 0 auto 24px auto;
+      max-width: 280px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #d6e4d7;
+      background: #f4f4f4;
+    }
+    .project-desc {
+      margin: 0 auto 28px auto;
+      font-size: 1.16em;
+      color: #333;
+      line-height: 1.6;
+      background: #f7fbf8;
+      padding: 18px 16px;
+      border-radius: 8px;
+      box-shadow: 0 1px 5px #eee;
+    }
+    .mission {
+      margin: 30px auto;
+      padding: 14px 12px;
+      border-left: 5px solid #225e39;
+      background: #ecf9f2;
+      font-style: italic;
+      min-height: 60px;
+      color: #225e39;
+      border-radius: 6px;
+    }
+    .legal {
+      margin-top: 50px;
+      font-size: 0.95em;
+      color: #777;
       text-align: center;
-      margin-bottom: 24px;
+      padding: 16px 12px 4px 12px;
+      border-top: 1px solid #e4e4e4;
     }
   </style>
 </head>
 <body>
-  <!-- Banner at top -->
-  <img src="Screenshot_20251122_162014_Gallery.jpg" alt="WWG1WGA Banner" class="banner">
+  <div class="main">
+    <!-- Logo at very top -->
+    <img src="Screenshot_20251119_102808_Gallery.jpg" class="logo" alt="WWG1WGA Logo">
 
-  <!-- Logo below the banner -->
-  <img src="Screenshot_20251119_102808_Gallery.jpg" alt="WWG1WGA Logo" class="logo">
+    <!-- Title line -->
+    <h1>WWG1WGA QPLANxAI</h1>
 
-  <h1>Welcome to WWG1WGA QPLANxAI</h1>
-  <p>This is the homepage for my project!</p>
+    <!-- Photo of badge -->
+    <img src="Screenshot_20251122_162014_Gallery.jpg" class="badge-img" alt="WWG1WGA Badge">
+
+    <!-- Project description paragraph -->
+    <div class="project-desc">
+      QPLANxAI is designed to foster secure communication, analysis, and collaboration for the WWG1WGA community. The platform combines technology, transparency, and collective intelligence to bring forward innovative solutions and trustworthy networking.<br><br>
+      Add details about your vision, goals, and what the project offers here!
+    </div>
+
+    <!-- Mission statement (leave this blank or add your own later) -->
+    <div class="mission">
+      Your mission statement goes here.
+    </div>
+
+    <!-- Legal info at bottom -->
+    <div class="legal">
+      &copy; 2025 WWG1WGA QPLANxAI. All rights reserved.<br>
+      For information on licensing or legal matters, see the LICENSE file in this repository.
+    </div>
+  </div>
 </body>
 </html>

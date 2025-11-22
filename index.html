@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,35 +7,43 @@
     body {
       font-family: Arial, sans-serif;
       background: #f8f8f8;
-      margin: 40px;
+      margin: 32px;
     }
-    h1 {
-      color: #153;
-    }
-    .images {
-      margin-top: 20px;
-      display: flex;
-      gap: 30px;
-      flex-wrap: wrap;
-    }
-    .images img {
-      max-width: 350px;
+    .banner {
+      width: 100%;
+      max-width: 900px;
+      display: block;
+      margin: 0 auto 28px auto;
       border-radius: 10px;
-      box-shadow: 0 0 8px #bbb;
+      box-shadow: 0 0 10px #bbb;
+    }
+    .logo {
+      max-width: 250px;
+      display: block;
+      margin: 0 auto 24px auto;
+      border-radius: 10px;
+      box-shadow: 0 0 8px #ccc;
       background: #fff;
     }
-    .desc {
-      margin-bottom: 18px;
-      font-size: 1.2em;
+    h1 {
+      color: #135031;
+      text-align: center;
+    }
+    p {
+      font-size: 1.15em;
+      text-align: center;
+      margin-bottom: 24px;
     }
   </style>
 </head>
 <body>
+  <!-- Banner at top -->
+  <img src="Screenshot_20251122_162014_Gallery.jpg" alt="WWG1WGA Banner" class="banner">
+
+  <!-- Logo below the banner -->
+  <img src="Screenshot_20251119_102808_Gallery.jpg" alt="WWG1WGA Logo" class="logo">
+
   <h1>Welcome to WWG1WGA QPLANxAI</h1>
-  <p class="desc">This is the homepage for my project!</p>
-  <div class="images">
-    <img src="Screenshot_20251119_102808_Gallery.jpg" alt="Screenshot 1">
-    <img src="Screenshot_20251122_162014_Gallery.jpg" alt="Screenshot 2">
-  </div>
+  <p>This is the homepage for my project!</p>
 </body>
 </html>
